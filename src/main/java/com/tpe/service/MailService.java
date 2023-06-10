@@ -11,11 +11,11 @@ import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
 import java.util.Properties;
 
-@Component//bu classtan bean oluşturulsun, default:mailService
-@Scope("prototype")//defaultta:Singleton
+@Component
+@Scope("prototype")
 public class MailService implements MessageService{
 
-    @PostConstruct//constructor metodu çağrıldıktan sonra
+    @PostConstruct
     public void init(){
         System.out.println("MailService objesi oluşturuluyor");
     }
@@ -26,22 +26,10 @@ public class MailService implements MessageService{
     }
 
 
-//    @Autowired//field injection
-//    @Qualifier("fileRepository")
-//    private Repository repo;
 
-    //setter injection
-//    private Repository repo;
-//    @Autowired
-//    @Qualifier("fileRepository")
-//    public void setRepo(Repository repo) {
-//        this.repo = repo;
-//    }
-
-    //constructor injection:daha güvenli,daha anlaşılır,test etmesi daha kolay
     private Repository repo;
 
-    @Autowired//classın sadece bir tane constructorı var ise, zorunlu değil
+    @Autowired
     public MailService(@Qualifier("fileRepository") Repository repo) {
         this.repo = repo;
     }
@@ -53,7 +41,7 @@ public class MailService implements MessageService{
 
     @Override
     public void saveMessage(Message message) {
-        //reponun objesine ihtiyacımız var
+       
         repo.save(message);
 
     }
