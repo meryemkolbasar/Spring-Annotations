@@ -23,7 +23,7 @@ _The project showcases the usage of Spring annotations and configuration classes
 ## Getting Started
 
 To get started with the Spring-Annotations project, follow these steps:
-<img align="right" alt="Coding" width="150" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcmJ0ajZhcG9oM2QyZGlreGF5MTAzaWhrNDM5ZzI2dHZ1NXdkcTdrNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HscDLzkO8EOTmgkhQP/giphy.gif">
+<img align="right" alt="Coding" width="140" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcmJ0ajZhcG9oM2QyZGlreGF5MTAzaWhrNDM5ZzI2dHZ1NXdkcTdrNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HscDLzkO8EOTmgkhQP/giphy.gif">
 1. Clone the repository.
 2. Build the project using a Java IDE or build tools like Maven or Gradle.
 3. Run the application and explore the functionality provided by the annotated components.
