@@ -27,6 +27,10 @@ To get started with the Spring-Annotations project, follow these steps:
 1. Clone the repository.
 2. Build the project using a Java IDE or build tools like Maven or Gradle.
 3. Run the application and explore the functionality provided by the annotated components.
+   
+## Language
+
+<a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a>
 
 ## Contributing
 
@@ -35,6 +39,8 @@ _Contributions are welcome! If you find any issues or have suggestions for impro
 ## License
 
 _This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details._
+
+
 
 
 
